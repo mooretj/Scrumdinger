@@ -29,7 +29,7 @@ struct DetailView: View {
                 HStack {
                     Label("Theme", systemImage: "paintpalette")
                     Spacer()
-                    Text(scrum.theme.Name)
+                    Text(scrum.theme.name)
                         .padding(4)
                         .cornerRadius(4)
                         .foregroundColor(scrum.theme.accentColor)
